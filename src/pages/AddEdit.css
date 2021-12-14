@@ -1,0 +1,47 @@
+.form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.form div input[type='text'] {
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 3px;
+  }
+
+  .form div input[type='email'] {
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 3px;
+  }
+
+  .form div input[type='number'] {
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 3px;
+  }
+  
+.form div input[type='submit'] {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(78, 230, 119);
+    color: #fff;
+    font-size: 16px;
+  }
+  
+.form div input[type='submit']:hover {
+    background-color: rgb(22, 197, 52);
+    cursor: pointer;
+}
+
+.message {
+    /*žinutė: customer saved*/
+    width: 200px;
+    margin: 25px auto;
+    padding: 10px;
+    border-left: 5px solid #000;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
